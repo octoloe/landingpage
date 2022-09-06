@@ -1,0 +1,153 @@
+/* ⏬ ☢ octoLoe ☣ ⏬  */
+
+/* ⏫ ☢ octoLoe ☣ ⏫ */
+
+/* FONT: Zen_Kaku_Gothic_Antique */
+
+@font-face {
+    font-family: 'zen_kaku_gothic_antiqueblack';
+    src: url('assets/fonts/zenkakugothicantique-black-webfont.eot');
+    src: url('assets/fonts/zenkakugothicantique-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/zenkakugothicantique-black-webfont.woff2') format('woff2'),
+         url('assets/fonts/zenkakugothicantique-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'zen_kaku_gothic_antiquebold';
+    src: url('assets/fonts/zenkakugothicantique-bold-webfont.eot');
+    src: url('assets/fonts/zenkakugothicantique-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/zenkakugothicantique-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/zenkakugothicantique-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'zen_kaku_gothic_antiquelight';
+    src: url('assets/fonts/zenkakugothicantique-light-webfont.eot');
+    src: url('assets/fonts/zenkakugothicantique-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/zenkakugothicantique-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/zenkakugothicantique-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'zen_kaku_gothic_antiquemedium';
+    src: url('assets/fonts/zenkakugothicantique-medium-webfont.eot');
+    src: url('assets/fonts/zenkakugothicantique-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/zenkakugothicantique-medium-webfont.woff2') format('woff2'),
+         url('assets/fonts/zenkakugothicantique-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html *
+{
+   font-family: 'zen_kaku_gothic_antiquemedium' !important;
+   /* color: #000 !important; */
+   /* color: #39ff14 !important; */
+   color: black;
+   background:  #39ff14;
+   
+}
+
+.bootsrapIcons{
+    border-bottom: 5px solid transparent;
+}
+
+.bootsrapIcons:hover {
+    width: 25px;
+    height: 25px;
+}
+
+/* ⏬ navbar - Section ☢ octoLoe ☣ ⏬  */
+.nav-link {
+    font-size: 1.7rem;
+    border-bottom: 5px solid transparent;
+}
+
+.nav-tabs {
+--bs-nav-tabs-border-color:  #FF0000 !important; 
+} 
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: #FF0000 !important;
+  }
+
+/* ⏬ HOME - Section ☢ octoLoe ☣ ⏬  */
+.home {
+    margin-top: 18rem !important;
+}
+
+.howToReach {
+    list-style: none;
+}
+
+.social_icons li {
+    list-style: none;
+    display:inline;
+    padding: 0.5rem; 
+}
+
+/* ⏬ About Me - Section ☢ octoLoe ☣ ⏬  */
+.about {
+    margin-top: 18rem !important;
+}
+
+.aboutItems li {
+    list-style: none;
+    display:inline;
+    padding: 0.5rem; 
+}
+
+.aboutLiItem {
+    border-bottom: 3px solid transparent;
+
+}
+
+.aboutLiItem:hover {
+    border-bottom: 1.2px solid #FF0000;
+}
+
+/* ⏬ Experiences- Section ☢ octoLoe ☣ ⏬  */
+.experience {
+    margin-top: 18rem !important;
+}
+
+/* ⏬ Portfolio - Section ☢ octoLoe ☣ ⏬  */
+
+.portfolio {
+    margin-top: 15rem !important;
+}
+
+
+/* ⏬ Footer - Section ☢ octoLoe ☣ ⏬  */
+.footer {
+    margin-top: 18rem !important;    
+}
+
+#owner {
+    margin-top: 10rem !important;
+    margin-bottom: 5rem !important;   
+}
+
+/* ⏬ Diverses ☢ octoLoe ☣ ⏬  */
+a:hover {
+    color: #FF0000 !important;
+}
+
+.btn-outline-danger {
+    --bs-btn-color:  #FF0000 !important; 
+    --bs-btn-border-color: #FF0000 !important; 
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg:  #FF0000 !important; 
+    --bs-btn-hover-border-color: #FF0000 !important; 
+}

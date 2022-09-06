@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technical Documentation Page - Tribute To OBS-Studio</title>
+    
+        <link rel="stylesheet" href="css/technicStyle.css" />
+        
+    </head>
+    <body>    
+
+        <nav id = "navbar">
+            <header><strong>OBS Open Broadcaster Software - (An Extract...)</strong></header>
+            <ul>
+                <li><a class = "nav-link" href = "#home" style = "text-decoration: none">Home</a></li>
+                <li><a class = "nav-link" href = "#system_requirements" style = "text-decoration: none">System Requirements</a></li>
+                <li><a class = "nav-link" href = "#quickstart_guide" style = "text-decoration: none">Quickstart Guide</a></li>
+                <li><a class = "nav-link" href = "#profiles_and_scene_collection" style = "text-decoration: none">Profiles And Scene Collection</a></li>
+                <li><a class = "nav-link" href = "#sources_guide" style = "text-decoration: none">Sources Guide</a></li>
+                <li><a class = "nav-link" href = "#reference" style = "text-decoration: none">Reference</a></li>
+            </ul>
+        </nav>
+
+        <main id = "main-doc">
+            <section class = "main-section" id = "home">
+                <header><strong>Home</strong></header>
+                <article>
+                    <p>OBS Studio is free and open source software for video recording and live streaming.
+                        Currently Linux, Mac and Windows Builds are available.</p>
+                    <ul>
+                        <li>Official OBS Studio Builds: <a href = "https://www.github.com/obsproject/obs-studio/releases" target = "_blank" style = "text-decoration: none">Github Releases</a></li>
+                        <li>Building OBS Studio Manually: <a href = "https://www.obsproject.com/wiki/Install-Instructions" target = "-blank" style = "text-decoration: none">Install Instructions</a></li>
+                    </ul>
+                    <p>If you`re looking for any kind of assistance with OBS Studio, the site has a help
+                        portal with links to resources and support channels.</p>
+                    <ul>
+                        <li>
+                            <a href = "https://www.obsproject.com/help" target ="_blank" style = "text-decoration: none">OBS Studio Help Portal.</a>
+                        </li>
+                    </ul>
+                    <p>The community has created a few guides on how to use OBS Studio:</p>
+                    <ul>
+                        <li>Quickstart Guide:  <a href = "https://www.obsproject.com/wiki/OBS-Studio-Quickstart" target = "_blank" style = "text-decoration: none">OBS Studio Quickstart</a></li>
+                        <li>Overview Guide: <a href = " https://obsproject.com/wiki/OBS-Studio-Overview" target = "_blank" style = "text-decoration: none">OBS Studio Overview</a></li>
+                        <li>Guide to Sources in Studio: <a href = " https://obsproject.com/wiki/Sources-Guide" target = "_blank" style = "text-decoration: none">Sources Guide</a></li>
+                        <li>Guide to Filters in Studio: <a href = " https://obsproject.com/wiki/Filters-Guide" target = "_blank" style = "text-decoration: none">Filters Guide</a></li>
+                        <li>General Troubleshooting Guides: <a href = " https://obsproject.com/wiki/Troubleshooting-Guides" target = "_blank" style = "text-decoration: none">Troubleshooting Guides</a></li>
+                        <li>Volume meters guide (v21+): <a href = " https://obsproject.com/wiki/Understanding-the-Mixer" target = "_blank" style = "text-decoration: none">Understanding the Mixer</a></li>
+                        <li>Surround sound features: <a href = " https://obsproject.com/wiki/Surround-Sound-Streaming-and-Recording" target = "_blank" style = "text-decoration: none">Surround Sound Streaming And Recording</a></li>
+                        <li>Streaming with srt protocol: <a href = " https://obsproject.com/wiki/Streaming-With-SRT-Protocol" target = "_blank" style = "text-decoration: none">Streaming with With SRT Protocol</a></li>
+                    </ul>
+                    <p>For Support Questions, Discord, the forum and IRC are available:</p>
+                    <ul>
+                        <li><a href = "https://www.discord.com/invite/obsproject" target = "_blank" style =  "text-decoration: none">OBS Studio Discord</a></li>
+                        <li><a href = "https://www.obsproject.com/forum/#obs-studio-support.3" target = "_blank" style =  "text-decoration: none">OBS Studio Forum</a></li>
+                        <li><a href = "https://www.obsproject.com/chat" target = "_blank" style = "text-decoration: none">OBS Community Chat</a></li>
+                    </ul>
+                    <p>More info about OBS Studio can be found in the Readme:</p>
+                    <ul>
+                        <li>
+                            <a href = "https://www.github.com/obsproject/obs-studio/blob/master/Readme.rst" target = "_blank" style = "text-decoration: none">Readme</a>
+                        </li>
+                    </ul>
+                    <p>Developers see the getting started tutorial, contributing guidelines, and copying info:</p>
+                    <ul>
+                        <li>
+                            <a href = "https://www.obsproject.com/wiki/Getting-Started-with-OBS-Studio-development" target = "_blank" style = "text-decoration: none">Getting Started with OBS Studio development</a>
+                        </li>
+                        <li>
+                            <a href = "https://www.github.com/obsproject/obs-studio/blob/master/CONTRIBUTING.rst" target = "_blank" style = "text-decoration: none">Contributing</a>
+                        </li>
+                        <li>
+                            <a href = "https://www.github.com/obsproject/obs-studio/blob/master/COPYING" target = "_blank" style = "text-decoration: none">Copying</a>
+                        </li>
+                    </ul>
+                    <p>For Development related Questions there is also a forum available:</p>
+                    <ul>
+                        <li>
+                            <a href = "https://www.obsproject.com/forum/list/general-development.21/" target = "_blank" style="text-decoration: none">OBS General Development Forum</a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class = "main-section" id = "system_requirements">
+                <header><strong>System Requirements</strong></header>
+                <article>
+                    <p></p>
+                    <p>OBS Studio requires the following hardware and operating systems to function. Having a compatible
+                    system does not guarantee that it is capable of streaming or recording using OBS. The CPU requirements
+                    vary considerably depending on the chosen encoder, resolution, FPS and your scene complexity. Try the
+                    Tools-&gt;Auto Configuration Wizard in OBS itself to find appropiate settings for your specs.</p>
+                    <p></p>
+                    <p>Basic Requirements</p>
+                    <hr>
+                    <p>Windows:</p>
+                    <ul>
+                        <li>Direct 10.1 compatible GPU</li>
+                        <li>Windows 8/8.1/10</li>
+                    </ul>
+                    <p>macOS:</p>
+                    <ul>
+                        <li>Intel CPU (PPC is not supported)</li>
+                        <li>OpenGL 3.3 compatible GPU</li>
+                        <li>macOS High Sierra (10.13) or later</li>
+                    </ul>
+                    <p>Linux / Unix</p>
+                    <ul>
+                        <li>OpenGL 3.3 compatible GPU</li>
+                        <li>X window system</li>
+                    </ul>
+                    <p></p>
+                    <p>Hardware Encoders</p>
+                    <hr>
+                    <p>Hardware encoders are generally recommended for local recordings, but not streaming. They can
+                    be a last resort if software encoding is not possible. They offer minimal performance impact in
+                    exchange for a reduction in quality at the same bitrates as software(x246) encoding using the
+                        default preset of veryfast. Currently, all consumer-level hardware encoders are provided by
+                    certain GPUs, as listed below</p>
+                    <p></p>
+                    <p></p>
+                    <p>Please make sure to use the latest drivers for your GPU:</p>
+                    <ul>
+                        <li>
+                            <a href ="https://www.nvidia.com/de-de/geforce/drivers/" style="text-decoration: none">NVIDEA</a>
+                        </li>
+                        <li>
+                            <a href ="https://www.amd.com/en/support" style="text-decoration: none">AMD</a>
+                        </li>
+                        <li>
+                            <p>Intel GPU drivers are usually available from your mainboard manufacturer, but can also be <a href="https://www.intel.com/content/www/us/en/download-center/home.html" style="text-decoration: none">found here</a>.</p>
+                        </li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <p>NVIDEA NVENC</p>
+                    <p></p>
+                    <p>NVIDEA GeForce GTX-class GPU with Kepler architecture (GKxx) or newer (starting with some cards
+                    of GTX 600 series). Support for mobile GPUs can exist, but most will not support NVENC. If you get
+                    an error when trying to use the NVENC encoder and your drivers are already up to date, your GPU
+                        very likely does not support NVENC</p>
+                    <p></p>
+                    <p></p>
+                    <p>Intel Qqick Sync Video (QSV)</p>
+                    <p></p>
+                    <p>Intel HD Graphics GPU on Intel Core-i-CPU 2xxx (Sandy Bridge) or newer.</p>
+                    <p>Due to low quality of early iterations of QSV, Intel Core-i-CPU 4xxx (Haswell) or newer is recommended.</p>
+                    <p></p>
+                    <p>QSV can be unstable on Windows 7 and many require <a href="https://obsproject.com/forum/resources/how-to-use-quicksync.82/" style="text-decoration: none">workarounds to enable it</a>.</p>
+                    <p></p>
+                    <p></p>
+                    <p>AMD Advanced Media Framework</p>
+                    <p></p>
+                    <p>Please read <a href = "https://github.com/obsproject/obs-amd-encoder/wiki/Hardware-Support" target = "_blank" style = "text-decoration: none">AMF plugin documentation for compatible GPUs</a> as well as the <a href= "https://github.com/obsproject/obs-amd-encoder/wiki/Guide%3A-Troubleshooting" target = "_blank" style = "text-decoration: none">troubleshooting guide</a> for issures.</p>
+                </article>
+            </section>
+
+            <section class = "main-section" id = "quickstart_guide">
+                <header><strong>Quickstart Guide</strong></header>
+                <article>
+                    <p></p>
+                    <p>Just follow these <strong>4 steps</strong> to start streaming or recording!</p>
+                    <p></p>
+                    <p></p>
+                    <p>1. Run the auto-configuration wizard</p>
+                    <p></p>
+                    <ul>When you load OBS Studio for the first time you should see the Auto-Configuration Wizard.
+                    If you`re new to OBS or just want to get started as quickly as possible, follow the steps to get
+                    good starting settings for youir setup. If you only see the main OBS Studio window, you can access the
+                    Auto-Config Wizard in the Tools menu at the top. This wizard will automatically test your system and attempt
+                    to find settings that your PC can handle. This includes streaming or recording, resolution, bitrate, encoder, streaming
+                    provider and more. You can always modify the settings manually later.</ul>
+                    <p></p>
+                    <p></p>
+                    <p>2. Set up your audio devices</p>
+                    <p></p>
+                    <ul>
+                        <li>By default, OBS Studio is set to capture your system default desktop audio device and microphone. You
+                    can verify this by looking at the volume meters in the mixer section omn the main OBS Studio window, and see
+                    if they are active. If they aren`t moving, or you suspect the wrong device is being captured, click on
+                            Settings-> Audio and select the devices manually.</li>
+                        <li><strong>macOS users</strong>. If you`re an macOS, <a href="https://obsproject.com/forum/resources/os-x-capture-audio-with-ishowu-audio-capture.505/" target = "_blank" style = "text-decoration: none">you`ll need an extra app</a> to capture
+                        desktop audio. This is due to limitations in macOS that provide no direct capture methods for desktop
+                        audio devices.</li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <p>3. Add your sources for video</p>
+                    <p></p>
+                    <ul>
+                        <li>Next, you`ll see that the preview is a black screen. OBS does not capture any video by default. To
+                        get started capturing, <strong>you need to add a Source</strong>. At the bottom of the window is a box called
+                        'Sources'. Click on the + (or right click inside the box) and pick the source you want. As a few examples,
+                        select Game Capture if you`re capturing a game, Window for non-game applications, or Video Device for a webcam
+                        or capture card.</li>
+                        <p></p>
+                        <li><strong>Laptop users:</strong><a href="https://obsproject.com/wiki/Laptop-Troubleshooting" target = "_blank" style = "text-decoration: none">Here`s</a>
+                        our troubleshooting guide if your game/window/display capture sources still show a black screen.</li>
+                        <p></p>
+                        <li>Sources and Scenes are the bread and butter of OBS Studio, and can be super powerfull. <a href="https://obsproject.com/wiki/OBS-Studio-Overview#scenes-and-sources" target = "_blank" style = "text-decoration: none">Click here
+                            to read more about them</a>.</li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <p>4. Test your stream and record settings</p>
+                    <p></p>
+                    <ul>
+                        <li>Double check that all your settings are how you want them in Settings-> Output.<strong>Then, just hit
+                        Start Recording or Start Streaming</strong>. We strongly encourage running a test for a few minutes to
+                        make sure that there are no issures, rather than just jumping in to your first stream or recording. If you
+                        run into any issures, or need further help, take a peek at our <a href="https://obsproject.com/help" target = "_blank" style = "text-decoration: none">help portal</a>.</li>
+                        <p></p>
+                        <li>Once you`re satisfied, you can go on to creating great content. That`s all there is to it.</li>
+                        <p></p>
+                        <li>If you want to read a more in-depth guide about the power of OBS STudio, jump into the <a href="obsproject.com/wiki/OBS-Studio-Overview" target = "_blank" style = "text-decoration: none">Overview wiki</a>.</li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <P>FAQ</P>
+                    <p></p>
+                    <p>Where are my recordings saved?</p>
+                    <p></p>
+                    <ul>Once your recording is done, you can find it using File-> Show Recordings. You can change this in File->
+                    Settings->Output->Recording</ul>
+                    <p></p>
+                    <p></p>
+                    <p>I need my recordings in MP4!</p>
+                    <p></p>
+                    <p>File-> Remux Recordings will quickly and easy convert your video files into MP4.</p>
+                    <p></p>
+                    <p></p>
+                    <p>Help, may video is laggy!</p>
+                    <p></p>
+                    <p>Depending on the kind of lag, this could be related to a slow internet connection, your game using
+                    too many resources, or incorrect settings. Read the troubleshooting guides linked below.</p>
+                    <p></p>
+                    <p></p>
+                    <p>I need help with other issures!</p>
+                    <p></p>
+                    <ul>
+                        <li>
+                            <a href="https://obsproject.com/wiki/Troubleshooting-Guides" target = "_blank" style = "text-decoration: none">Troubleshooting Guides</a>
+                        </li>
+                        <li>
+                            <a href="https://obsproject.com/help" target = "_blank" style = "text-decoration: none">Community Chat & more</a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class = "main-section" id = "profiles_and_scene_collection">
+                <header><strong>Profiles And Scene Collection</strong></header>
+                <article>
+                    <p><p>
+                    <p><strong>First things first:</strong><i> Profiles do not include the scenes and sources!</i></p>
+                    <p></p>
+                    <p></p>
+                    <p>To end the confusion</p>
+                    <p></p>
+                    <p>Many users have complained, that the name <i>profiles</i>might be a bit confusing. Some think it
+                    implies the scenes and sources are saved in a profile, but that is not the case. A profile is just for the settings
+                        and the scenes and sources are saved in a so <i>called Scene Collection</i>.</p>
+                    <p></p>
+                    <p></p>
+                    <p>Profiles</p>
+                    <p></p>
+                    <p>Profiles contain...</p>
+                    <ul>
+                        <li>the stream key</li>
+                        <li>all recording and streaming encoder settings</li>
+                        <li>your canvas and output size</li>
+                        <li>several advanced options</li>
+                        <li>various other settings in the Setting menu</li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <p>Scene Collections</p>
+                    <p></p>
+                    <p>Scene Collections contain...</p>
+                    <ul>
+                        <li>your scenes</li>
+                        <li>sources</li>
+                        <li>audio settings</li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <p>Conclusion</p>
+                    <p></p>
+                    <ul>
+                        <li>To quote from OBS forum: Many users stream to multiple services, and it`s very useful to simply switch
+                        those profile settings rather than having to change entire scene collections. Saving both to the same place is a waste
+                        of resources, and this is unlikely to be changed.</li>
+                        <p></p>
+                        <li>...to be continued...<br>
+                            (Please do continue if <strong>you</strong> have the time and understanding of those topics. This
+                        is just a start to make it easier for someone to edit.)</br></li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class = "main-section" id = "sources_guide">
+                <header><strong>Sources Guide</strong></header>
+                <article>
+                    <p></p>
+                    <p>Table of Contents</p>
+                    <ul>
+                        <li>
+                            <code>Scenes and Sources Overview</code>
+                        </li>
+                        <li><code>Source Descriptions</code></li>
+                        <ul>
+                            <li><code>Audio Input Capture</code></li>
+                            <li><code>Audio Output Capture</code></li>
+                            <li><code>Blackmagic device</code></li>
+                            <li><code>Browser Source</code></li>
+                            <li><code>Color Source</code></li>
+                            <li><code>Display Capture</code></li>
+                            <li><code>Game Capture</code></li>
+                            <li><code>Image</code></li>
+                            <li><code>Image Slide Show</code></li>
+                            <li><code>Intel RealSense 3D Camera GreenScreen</code></li>
+                            <li><code>Media Source</code></li>
+                            <li><code>Scene</code></li>
+                            <li><code>Text (GDI+)</code></li>
+                            <li><code>VLC Video Source</code></li>
+                            <li><code>Video Capture Device</code></li>
+                            <li><code>Winddow Capture</code></li>
+                            <li><code>Deprecated Sources</code></li>
+                        </ul>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="main-section" id="reference">
+                <header>Reference</header>
+                <article>
+                    <ul>
+                        <li>
+                        The extract from this documentation is taken from
+                            <a href="https://obsproject.com/wiki/" target="_blank" style = "text-decoration: none">OBS-WIKI</a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+
+
+    </body>
+</html>
